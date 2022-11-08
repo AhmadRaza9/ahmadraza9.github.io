@@ -1,234 +1,373 @@
-/*--------------------------------------------------------------------- 
-File Name: responsive.css 
----------------------------------------------------------------------*/
+/** Width between 1200x to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
 
-@media (min-width: 1200px) and (max-width: 1320px) {
-    #myCarousel a.carousel-control-prev {
-        left: 43.3%;
-    }
+@media (min-width: 1200px) {
+
 }
+
+/** Width between 992px to 1199px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .banner_main .bluid h1 {
-        font-size: 44px;
-        line-height: 57px;
-        padding-bottom: 24px;
-    }
-    .banner_main .bluid .read_more {
-        max-width: 198px;
-    }
-    #myCarousel a.carousel-control-prev {
-        left: 40.3%;
-    }
-    .banner_main .bluid p {
-        padding-bottom: 36px;
-    }
-    .wallet {
-        padding: 113px 0px 0 0px;
-    }
-    .graf_tab li a {
-        padding: 12px 19px;
-    }
-    .usd h4 {
-        font-size: 16px;
-    }
-    .growth h3 {
-        padding-left: 0;
-    }
-    .pa_ri {
-        padding-right: 7px !important;
-    }
-    .h3tota {
-        padding-left: 30px !important;
-    }
+  
 }
+
+/** Width between 768px to 991px
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    ul.email li {
-        padding: 0px 20px;
-    }
-    .banner_main .bluid h1 {
-        font-size: 34px;
-        line-height: 45px;
-        padding-bottom: 16px;
-    }
-    .banner_main .bluid .read_more {
-        max-width: 160px;
-        margin-right: 9px;
-    }
-    #myCarousel a.carousel-control-prev {
-        left: 35.3%;
-    }
-    .banner_main .bluid p {
-        padding-bottom: 36px;
-    }
-    .wallet {
-        padding: 113px 0px 0 0px;
-    }
-    .about_border {
-        padding: 80px 40px;
-    }
-    .titlepage h2 {
-        font-size: 37px;
-        line-height: 41px;
-    }
-    .graf_tab li a {
-        padding: 12px 10px;
-        font-size: 14px;
-    }
-    .usd h4 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-    .growth h3 {
-        padding-left: 0;
-    }
-    .pa_ri {
-        padding-right: 0px !important;
-    }
-    .h3tota {
-        padding-left: 0px !important;
-    }
-    .testomoniam_text h3 {
-        font-size: 16px;
-    }
-    .testomoniam_text p {
-        font-size: 15px;
-        line-height: 25px;
-        padding-top: 0px;
-    }
-    .Informa li {
-        font-size: 14px;
-        line-height: 29px;
-    }
-    .ente {
-        font-size: 13px;
-    }
+  /* Navbar */
+  nav {
+    padding: 10px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  .head-info .header-content .cmaster h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    header {
-        padding: 21px 3px;
-    }
-    ul.social_icon {
-        padding-top: 0;
-    }
-    ul.social_icon li {
-        padding-right: 10px;
-    }
-    ul.email li {
-        padding: 0px 15px;
-    }
-    .logo {
-        text-align: center;
-        display: block;
-    }
-    .banner_main .bluid h1 {
-        font-size: 51px;
-        line-height: 67px;
-    }
-    #myCarousel a.carousel-control-prev {
-        left: 35.3%;
-    }
-    #myCarousel a.carousel-control-next {
-        right: 37.3%;
-    }
-    .wallet {
-        padding: 113px 0px 0 0px;
-    }
-    .about_border {
-        padding: 80px 40px;
-    }
-    .about_img {
-        margin-top: 30px;
-        float: inherit;
-    }
-    .graf_tab li a {
-        padding: 12px 22px;
-    }
-    .h3tota {
-        padding-left: 62px !important;
-    }
-    .growth h3 {
-        padding-left: 29px;
-    }
-    .pa_ri {
-        padding-right: 30px !important;
-    }
-    .border_testi {
-        margin: 0;
-    }
+/** Width between 767px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 767px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
 }
 
-@media (max-width: 575px) {
-    header {
-        padding: 27px 0px;
-    }
-    .d_none {
-        display: none !important;
-    }
-    .email {
-        padding-top: 0 !important;
-        margin-top: -42px;
-    }
-    .logo {
-        display: block;
-        float: left;
-    }
-    .banner_main .bluid h1 {
-        font-size: 26px;
-        line-height: 42px;
-        padding-bottom: 11px;
-    }
-    .banner_main .bluid p {
-        padding-bottom: 20px;
-        font-size: 15px;
-    }
-    .banner_main .bluid .read_more {
-        margin-right: 5px;
-        max-width: 124px;
-        height: 48px;
-        line-height: 48px;
-        font-size: 16px;
-    }
-    #myCarousel a.carousel-control-prev {
-        left: 24.3%;
-    }
-    #myCarousel a.carousel-control-next {
-        right: 25.3%;
-    }
-    .titlepage h2 {
-        font-size: 35px;
-        line-height: 40px;
-    }
-    .wallet {
-        padding: 113px 0px 0 0px;
-    }
-    .about_border {
-        padding: 80px 15px;
-    }
-    .about_text p {
-        line-height: 28px;
-        font-size: 16px;
-    }
-    .about_img {
-        margin-top: 30px;
-        float: inherit;
-    }
-    .graf_tab li a {
-        padding: 12px 22px;
-    }
-    .h3tota {
-        padding-left: 0px !important;
-    }
-    .growth h3 {
-        padding-left: 0px;
-        font-size: 17px;
-    }
-    .pa_ri {
-        padding-right: 0px !important;
-    }
-    .border_testi {
-        margin: 0;
-    }
+/** Width between 600px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 600px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 10px;
+    display: inline-block;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 480px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 480px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+}
+
+/** Width between 320px to 0
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+@media (max-width: 320px) {
+  /* Navbar */
+  nav {
+    padding: 20px 15px;
+  }
+  .nav-menu {
+    margin-top: 40px;
+    display: none;
+    float: none;
+    width: 100%;
+  }
+  .nav-menu li {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #f7f7f7;
+    line-height: 45px;
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .responsive {
+    float: right;
+    padding-top: 15px;
+    display: block;
+  }
+  /* About */
+  .head-info .header-content h1 {
+    font-size: 32px;
+  }
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  /* portfolio */
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 20px;
+  }
+  /* journal */
+  #journal .journal-block .journal-info {
+    margin-bottom: 30px;
+  }
+  /* Contact */
+  .contact-contact {
+    margin-bottom: 30px;
+  }
+  /* Footer */
+  #footer .socials-media ul li {
+    margin-right: 0;
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+  }
+  /* Single page */
+  .entry-comments-body span {
+    display: inline-block;
+    margin-right: 0;
+  }
 }
