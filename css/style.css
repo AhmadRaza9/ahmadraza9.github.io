@@ -130,6 +130,14 @@ p {
   color: black;
   font-weight: 400;
 }
+.my-form-error-messsage{
+    margin-top: 20px;
+      background: #7a00005c;
+      padding: 15px;
+      border-radius: 3px;
+      color: black;
+      font-weight: 400;
+}
 
 .padDiv {
   padding: 30px 20px;
